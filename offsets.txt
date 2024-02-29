@@ -16,3 +16,18 @@
         // insat win?!
 	[SerializeField] // RVA: 0x5DC02C Offset: 0x5DC02C VA: 0x5DC02C
 	private long _pointWin; // 0x30
+
+
+// code
+
+// Assuming you're using Frida for hooking
+// Assuming you're modifying a method in a class related to Dragon Ball Legends
+
+Java.perform(function() {
+    var dbLegendsClass = Java.use('com.bandainamcoen.dblegends_ww');
+
+    dbLegendsClass.get_stones.implementation = function() {
+        console.log("Hooked get_stones method for DB Legends");
+        return 999999999999999;
+    };
+});
