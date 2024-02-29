@@ -1,14 +1,18 @@
-  // daily stamp
+        // daily stamp
 
 	// RVA: 0x10188E4 Offset: 0x10188E4 VA: 0x10188E4
 	public LocalSaveData.DailyStamp get_dailyStamp() { }
 
-  // cc maybe
+        // cc maybe
 
 	// RVA: 0x12A52A4 Offset: 0x12A52A4 VA: 0x12A52A4
 	public int get_stones() { }
 
-  // speed?
+        // speed?
 
 	[CompilerGeneratedAttribute] // RVA: 0x863778 Offset: 0x863778 VA: 0x863778
 	private SpeedMeter <Metrics>k__BackingField; // 0x24
+
+        // insat win?!
+	[SerializeField] // RVA: 0x5DC02C Offset: 0x5DC02C VA: 0x5DC02C
+	private long _pointWin; // 0x30
