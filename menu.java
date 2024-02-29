@@ -35,7 +35,7 @@ Java.perform(function() {
     var params = WindowManager.LayoutParams();
 
     var iconView = ImageView(context);
-    iconView.setImageResource(context.getResources().getIdentifier("icon", "drawable", "com.your.package.name"));
+    iconView.setImageResource(context.getResources().getIdentifier("icon", "drawable", "com.bandainamcoen.dblegends_ww"));
 
     params.width = WindowManager.LayoutParams.WRAP_CONTENT;
     params.height = WindowManager.LayoutParams.WRAP_CONTENT;
