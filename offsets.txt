@@ -18,6 +18,12 @@
 	private long _pointWin; // 0x30
 
 
+	// RVA: 0x99A59C Offset: 0x99A59C VA: 0x99A59C
+	public ClientRequest.ICommand UpgradeEquipmentAbility(UpgradeEquipmentAbilityRequest request, 			 
+        ClientRequest.OnSucceeded<UpgradeEquipmentAbilityResponse> onSucceeded, 
+        ClientRequest.OnFailure<UpgradeEquipmentAbilityResponse> onFailure) { }
+
+
 // code
 
 // Assuming you're using Frida for hooking
